@@ -13,8 +13,9 @@ const second = [4,5,6];
 
 //   const slice = combine.slice(2,4);  // first way 
 //   const slice = combine.slice(3);    // second way
-     const slice = combine.slice();   // third way
+     const slice = combine.slice();   // this return same array
 
 
   console.log(combine);   
   console.log(slice);
+  
